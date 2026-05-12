@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #fecaca;
 }
 
+
 button:hover {
     background-color: #f3f4f6 !important;
 }
@@ -176,7 +177,6 @@ st.sidebar.markdown("### Kullanılan Yöntemler")
 st.sidebar.write("✅ ORB")
 st.sidebar.write("✅ AKAZE")
 st.sidebar.write("✅ SIFT")
-st.sidebar.write("✅ SURF")
 st.sidebar.write("✅ Şüpheli Bölge Tespiti")
 st.sidebar.write("✅ AI Risk Analizi")
 
@@ -351,6 +351,7 @@ if uploaded_file is not None:
             unsafe_allow_html=True
         )
 
+
     st.markdown("## 📄 Rapor Özeti")
 
     st.info(
@@ -368,4 +369,3 @@ else:
         <p>4. Genel sonucu rapor olarak değerlendirin.</p>
     </div>
     """, unsafe_allow_html=True)
-
