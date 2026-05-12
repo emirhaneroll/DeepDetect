@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['c1_0',['c1',['../namespaceapp.html#a450fc58a9866b3d73832ab40377c0b5c',1,'app']]],
+  ['c2_1',['c2',['../namespaceapp.html#a5703148a7abdd437640cec462f5a9c15',1,'app']]],
+  ['c3_2',['c3',['../namespaceapp.html#a4780b2a69f6bd9c96f5432171abbdae6',1,'app']]],
+  ['caption_3',['caption',['../namespaceapp.html#a0ff686af9e64565e047fe2f7fb0fd22e',1,'app']]],
+  ['class_5fweight_4',['class_weight',['../namespacetrain__lstm.html#a55975267241711c87f8ecbd87d33904f',1,'train_lstm.class_weight'],['../namespacetrain__models.html#a073f71a022c9cc553515ea94db09dfff',1,'train_models.class_weight']]],
+  ['class_5fweights_5',['class_weights',['../namespacetrain__lstm.html#af1b94c1403e457f4d1d3f6f6ad4c7050',1,'train_lstm.class_weights'],['../namespacetrain__models.html#a51c4b2b36bd3afa264314ecb831f120a',1,'train_models.class_weights']]],
+  ['class_5fweights_5farray_6',['class_weights_array',['../namespacetrain__lstm.html#a934b21b10260882e5d06c7b169bb1a9f',1,'train_lstm.class_weights_array'],['../namespacetrain__models.html#adce25a94a9b897bf79d7c8981498e298',1,'train_models.class_weights_array']]],
+  ['classes_7',['classes',['../namespacetrain__lstm.html#a17a9c792c0215d0db6aa865549123245',1,'train_lstm.classes'],['../namespacetrain__models.html#a154cb671e040c44358242b7e48d0aef4',1,'train_models.classes']]],
+  ['cnn_5ffake_5fscore_8',['cnn_fake_score',['../namespaceapp.html#ab7fed9f7f9b10144b993f4635d0203e3',1,'app']]],
+  ['cnn_5finput_9',['cnn_input',['../namespaceapp.html#aa5c0fb49f4954eb4a350952ae2ddc217',1,'app']]],
+  ['cnn_5fmodel_10',['cnn_model',['../namespaceapp.html#a24dab84ca61c748acefb429b816ad8b1',1,'app.cnn_model'],['../namespaceevaluate__models.html#a88cd07ea1654340f83acf2b028642eeb',1,'evaluate_models.cnn_model'],['../namespacemanual__model__check.html#ac080e07eb451386835e507703327fc09',1,'manual_model_check.cnn_model']]],
+  ['cnn_5fprediction_11',['cnn_prediction',['../namespaceapp.html#a64a245617fa51f8a0ed42f66f5bc8c1d',1,'app']]],
+  ['cnn_5freal_5fscore_12',['cnn_real_score',['../namespaceapp.html#ac83048754b8aa1e31459edf11130b4a1',1,'app']]],
+  ['col1_13',['col1',['../namespaceapp.html#a7a411ea567ac1ca0c5c461278144a7e1',1,'app']]],
+  ['col2_14',['col2',['../namespaceapp.html#a5a5fda4e66a5b10cce19391f477e1298',1,'app']]],
+  ['col3_15',['col3',['../namespaceapp.html#a6741c59d19870c5f024fd2337c49ce92',1,'app']]],
+  ['contours_16',['contours',['../namespaceapp.html#a21256bb7793ec0e75205974050c8b188',1,'app']]]
+];

@@ -1,0 +1,175 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Directory Hierarchy}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Directories}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Package List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Directory Documentation}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}src Directory Reference}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}utils Directory Reference}{7}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}ai\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}detection Namespace Reference}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}app Namespace Reference}{9}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Function Documentation}{10}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}load\_ai\_models()}{10}{subsubsection.5.2.1.1}%
+\contentsline {subsection}{\numberline {5.2.2}Variable Documentation}{10}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}\_}{10}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}ai\_image}{10}{subsubsection.5.2.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}akaze}{11}{subsubsection.5.2.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.2.4}area}{11}{subsubsection.5.2.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.2.5}c1}{11}{subsubsection.5.2.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.2.6}c2}{11}{subsubsection.5.2.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.2.7}c3}{11}{subsubsection.5.2.2.7}%
+\contentsline {subsubsection}{\numberline {5.2.2.8}caption}{11}{subsubsection.5.2.2.8}%
+\contentsline {subsubsection}{\numberline {5.2.2.9}cnn\_fake\_score}{11}{subsubsection.5.2.2.9}%
+\contentsline {subsubsection}{\numberline {5.2.2.10}cnn\_input}{11}{subsubsection.5.2.2.10}%
+\contentsline {subsubsection}{\numberline {5.2.2.11}cnn\_model}{11}{subsubsection.5.2.2.11}%
+\contentsline {subsubsection}{\numberline {5.2.2.12}cnn\_prediction}{11}{subsubsection.5.2.2.12}%
+\contentsline {subsubsection}{\numberline {5.2.2.13}cnn\_real\_score}{12}{subsubsection.5.2.2.13}%
+\contentsline {subsubsection}{\numberline {5.2.2.14}col1}{12}{subsubsection.5.2.2.14}%
+\contentsline {subsubsection}{\numberline {5.2.2.15}col2}{12}{subsubsection.5.2.2.15}%
+\contentsline {subsubsection}{\numberline {5.2.2.16}col3}{12}{subsubsection.5.2.2.16}%
+\contentsline {subsubsection}{\numberline {5.2.2.17}contours}{12}{subsubsection.5.2.2.17}%
+\contentsline {subsubsection}{\numberline {5.2.2.18}des\_akaze}{12}{subsubsection.5.2.2.18}%
+\contentsline {subsubsection}{\numberline {5.2.2.19}des\_orb}{12}{subsubsection.5.2.2.19}%
+\contentsline {subsubsection}{\numberline {5.2.2.20}des\_sift}{12}{subsubsection.5.2.2.20}%
+\contentsline {subsubsection}{\numberline {5.2.2.21}des\_surf}{12}{subsubsection.5.2.2.21}%
+\contentsline {subsubsection}{\numberline {5.2.2.22}edges}{12}{subsubsection.5.2.2.22}%
+\contentsline {subsubsection}{\numberline {5.2.2.23}final\_score}{13}{subsubsection.5.2.2.23}%
+\contentsline {subsubsection}{\numberline {5.2.2.24}gray}{13}{subsubsection.5.2.2.24}%
+\contentsline {subsubsection}{\numberline {5.2.2.25}h}{13}{subsubsection.5.2.2.25}%
+\contentsline {subsubsection}{\numberline {5.2.2.26}image}{13}{subsubsection.5.2.2.26}%
+\contentsline {subsubsection}{\numberline {5.2.2.27}img}{13}{subsubsection.5.2.2.27}%
+\contentsline {subsubsection}{\numberline {5.2.2.28}img\_akaze}{13}{subsubsection.5.2.2.28}%
+\contentsline {subsubsection}{\numberline {5.2.2.29}img\_orb}{13}{subsubsection.5.2.2.29}%
+\contentsline {subsubsection}{\numberline {5.2.2.30}img\_sift}{13}{subsubsection.5.2.2.30}%
+\contentsline {subsubsection}{\numberline {5.2.2.31}IMG\_SIZE}{13}{subsubsection.5.2.2.31}%
+\contentsline {subsubsection}{\numberline {5.2.2.32}img\_surf}{13}{subsubsection.5.2.2.32}%
+\contentsline {subsubsection}{\numberline {5.2.2.33}kp\_akaze}{14}{subsubsection.5.2.2.33}%
+\contentsline {subsubsection}{\numberline {5.2.2.34}kp\_orb}{14}{subsubsection.5.2.2.34}%
+\contentsline {subsubsection}{\numberline {5.2.2.35}kp\_sift}{14}{subsubsection.5.2.2.35}%
+\contentsline {subsubsection}{\numberline {5.2.2.36}kp\_surf}{14}{subsubsection.5.2.2.36}%
+\contentsline {subsubsection}{\numberline {5.2.2.37}layout}{14}{subsubsection.5.2.2.37}%
+\contentsline {subsubsection}{\numberline {5.2.2.38}lstm\_fake\_score}{14}{subsubsection.5.2.2.38}%
+\contentsline {subsubsection}{\numberline {5.2.2.39}lstm\_input}{14}{subsubsection.5.2.2.39}%
+\contentsline {subsubsection}{\numberline {5.2.2.40}lstm\_model}{14}{subsubsection.5.2.2.40}%
+\contentsline {subsubsection}{\numberline {5.2.2.41}lstm\_prediction}{14}{subsubsection.5.2.2.41}%
+\contentsline {subsubsection}{\numberline {5.2.2.42}lstm\_real\_score}{14}{subsubsection.5.2.2.42}%
+\contentsline {subsubsection}{\numberline {5.2.2.43}marked\_img}{15}{subsubsection.5.2.2.43}%
+\contentsline {subsubsection}{\numberline {5.2.2.44}orb}{15}{subsubsection.5.2.2.44}%
+\contentsline {subsubsection}{\numberline {5.2.2.45}page\_icon}{15}{subsubsection.5.2.2.45}%
+\contentsline {subsubsection}{\numberline {5.2.2.46}page\_title}{15}{subsubsection.5.2.2.46}%
+\contentsline {subsubsection}{\numberline {5.2.2.47}sift}{15}{subsubsection.5.2.2.47}%
+\contentsline {subsubsection}{\numberline {5.2.2.48}surf}{15}{subsubsection.5.2.2.48}%
+\contentsline {subsubsection}{\numberline {5.2.2.49}suspicious\_count}{15}{subsubsection.5.2.2.49}%
+\contentsline {subsubsection}{\numberline {5.2.2.50}tab1}{15}{subsubsection.5.2.2.50}%
+\contentsline {subsubsection}{\numberline {5.2.2.51}tab2}{15}{subsubsection.5.2.2.51}%
+\contentsline {subsubsection}{\numberline {5.2.2.52}tab3}{15}{subsubsection.5.2.2.52}%
+\contentsline {subsubsection}{\numberline {5.2.2.53}tab4}{16}{subsubsection.5.2.2.53}%
+\contentsline {subsubsection}{\numberline {5.2.2.54}unsafe\_allow\_html}{16}{subsubsection.5.2.2.54}%
+\contentsline {subsubsection}{\numberline {5.2.2.55}uploaded\_file}{16}{subsubsection.5.2.2.55}%
+\contentsline {subsubsection}{\numberline {5.2.2.56}w}{16}{subsubsection.5.2.2.56}%
+\contentsline {subsubsection}{\numberline {5.2.2.57}width}{16}{subsubsection.5.2.2.57}%
+\contentsline {subsubsection}{\numberline {5.2.2.58}x}{16}{subsubsection.5.2.2.58}%
+\contentsline {subsubsection}{\numberline {5.2.2.59}y}{16}{subsubsection.5.2.2.59}%
+\contentsline {section}{\numberline {5.3}evaluate\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models Namespace Reference}{16}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Function Documentation}{17}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}evaluate\_folder()}{17}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}predict\_image()}{17}{subsubsection.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.1.3}prepare\_image()}{17}{subsubsection.5.3.1.3}%
+\contentsline {subsection}{\numberline {5.3.2}Variable Documentation}{17}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}cnn\_model}{17}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}IMG\_SIZE}{17}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}limit}{17}{subsubsection.5.3.2.3}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}lstm\_model}{17}{subsubsection.5.3.2.4}%
+\contentsline {section}{\numberline {5.4}feature\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}detection Namespace Reference}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.5}image\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}loader Namespace Reference}{18}{section.5.5}%
+\contentsline {section}{\numberline {5.6}manual\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}model\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}check Namespace Reference}{18}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Function Documentation}{18}{subsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.1}prepare\_image()}{18}{subsubsection.5.6.1.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.2}test\_folder()}{18}{subsubsection.5.6.1.2}%
+\contentsline {subsection}{\numberline {5.6.2}Variable Documentation}{18}{subsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.2.1}cnn\_model}{18}{subsubsection.5.6.2.1}%
+\contentsline {subsubsection}{\numberline {5.6.2.2}fake\_index}{18}{subsubsection.5.6.2.2}%
+\contentsline {subsubsection}{\numberline {5.6.2.3}IMG\_SIZE}{19}{subsubsection.5.6.2.3}%
+\contentsline {subsubsection}{\numberline {5.6.2.4}lstm\_model}{19}{subsubsection.5.6.2.4}%
+\contentsline {section}{\numberline {5.7}metrics Namespace Reference}{19}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Function Documentation}{19}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}calculate\_fake\_ratio()}{19}{subsubsection.5.7.1.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}interpret\_result()}{19}{subsubsection.5.7.1.2}%
+\contentsline {section}{\numberline {5.8}model\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}test Namespace Reference}{19}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Function Documentation}{19}{subsection.5.8.1}%
+\contentsline {subsubsection}{\numberline {5.8.1.1}test\_app\_file\_exists()}{19}{subsubsection.5.8.1.1}%
+\contentsline {section}{\numberline {5.9}test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}utils Namespace Reference}{20}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Function Documentation}{20}{subsection.5.9.1}%
+\contentsline {subsubsection}{\numberline {5.9.1.1}test\_calculate\_fake\_ratio()}{20}{subsubsection.5.9.1.1}%
+\contentsline {subsubsection}{\numberline {5.9.1.2}test\_interpret\_result()}{20}{subsubsection.5.9.1.2}%
+\contentsline {section}{\numberline {5.10}train\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}lstm Namespace Reference}{20}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Variable Documentation}{21}{subsection.5.10.1}%
+\contentsline {subsubsection}{\numberline {5.10.1.1}base\_model}{21}{subsubsection.5.10.1.1}%
+\contentsline {subsubsection}{\numberline {5.10.1.2}BATCH\_SIZE}{21}{subsubsection.5.10.1.2}%
+\contentsline {subsubsection}{\numberline {5.10.1.3}class\_weight}{21}{subsubsection.5.10.1.3}%
+\contentsline {subsubsection}{\numberline {5.10.1.4}class\_weights}{21}{subsubsection.5.10.1.4}%
+\contentsline {subsubsection}{\numberline {5.10.1.5}class\_weights\_array}{21}{subsubsection.5.10.1.5}%
+\contentsline {subsubsection}{\numberline {5.10.1.6}classes}{21}{subsubsection.5.10.1.6}%
+\contentsline {subsubsection}{\numberline {5.10.1.7}DATASET\_DIR}{21}{subsubsection.5.10.1.7}%
+\contentsline {subsubsection}{\numberline {5.10.1.8}EPOCHS}{21}{subsubsection.5.10.1.8}%
+\contentsline {subsubsection}{\numberline {5.10.1.9}epochs}{22}{subsubsection.5.10.1.9}%
+\contentsline {subsubsection}{\numberline {5.10.1.10}fake\_index}{22}{subsubsection.5.10.1.10}%
+\contentsline {subsubsection}{\numberline {5.10.1.11}IMG\_SIZE}{22}{subsubsection.5.10.1.11}%
+\contentsline {subsubsection}{\numberline {5.10.1.12}loss}{22}{subsubsection.5.10.1.12}%
+\contentsline {subsubsection}{\numberline {5.10.1.13}metrics}{22}{subsubsection.5.10.1.13}%
+\contentsline {subsubsection}{\numberline {5.10.1.14}model}{22}{subsubsection.5.10.1.14}%
+\contentsline {subsubsection}{\numberline {5.10.1.15}MODEL\_DIR}{22}{subsubsection.5.10.1.15}%
+\contentsline {subsubsection}{\numberline {5.10.1.16}optimizer}{22}{subsubsection.5.10.1.16}%
+\contentsline {subsubsection}{\numberline {5.10.1.17}output}{22}{subsubsection.5.10.1.17}%
+\contentsline {subsubsection}{\numberline {5.10.1.18}train\_datagen}{23}{subsubsection.5.10.1.18}%
+\contentsline {subsubsection}{\numberline {5.10.1.19}train\_generator}{23}{subsubsection.5.10.1.19}%
+\contentsline {subsubsection}{\numberline {5.10.1.20}trainable}{23}{subsubsection.5.10.1.20}%
+\contentsline {subsubsection}{\numberline {5.10.1.21}val\_generator}{23}{subsubsection.5.10.1.21}%
+\contentsline {subsubsection}{\numberline {5.10.1.22}validation\_data}{23}{subsubsection.5.10.1.22}%
+\contentsline {subsubsection}{\numberline {5.10.1.23}x}{23}{subsubsection.5.10.1.23}%
+\contentsline {section}{\numberline {5.11}train\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models Namespace Reference}{24}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Variable Documentation}{24}{subsection.5.11.1}%
+\contentsline {subsubsection}{\numberline {5.11.1.1}base\_model}{24}{subsubsection.5.11.1.1}%
+\contentsline {subsubsection}{\numberline {5.11.1.2}BATCH\_SIZE}{24}{subsubsection.5.11.1.2}%
+\contentsline {subsubsection}{\numberline {5.11.1.3}class\_weight}{24}{subsubsection.5.11.1.3}%
+\contentsline {subsubsection}{\numberline {5.11.1.4}class\_weights}{25}{subsubsection.5.11.1.4}%
+\contentsline {subsubsection}{\numberline {5.11.1.5}class\_weights\_array}{25}{subsubsection.5.11.1.5}%
+\contentsline {subsubsection}{\numberline {5.11.1.6}classes}{25}{subsubsection.5.11.1.6}%
+\contentsline {subsubsection}{\numberline {5.11.1.7}DATASET\_DIR}{25}{subsubsection.5.11.1.7}%
+\contentsline {subsubsection}{\numberline {5.11.1.8}epochs}{25}{subsubsection.5.11.1.8}%
+\contentsline {subsubsection}{\numberline {5.11.1.9}EPOCHS\_FINE}{25}{subsubsection.5.11.1.9}%
+\contentsline {subsubsection}{\numberline {5.11.1.10}EPOCHS\_HEAD}{25}{subsubsection.5.11.1.10}%
+\contentsline {subsubsection}{\numberline {5.11.1.11}exist\_ok}{25}{subsubsection.5.11.1.11}%
+\contentsline {subsubsection}{\numberline {5.11.1.12}fake\_index}{25}{subsubsection.5.11.1.12}%
+\contentsline {subsubsection}{\numberline {5.11.1.13}IMG\_SIZE}{26}{subsubsection.5.11.1.13}%
+\contentsline {subsubsection}{\numberline {5.11.1.14}loss}{26}{subsubsection.5.11.1.14}%
+\contentsline {subsubsection}{\numberline {5.11.1.15}metrics}{26}{subsubsection.5.11.1.15}%
+\contentsline {subsubsection}{\numberline {5.11.1.16}model}{26}{subsubsection.5.11.1.16}%
+\contentsline {subsubsection}{\numberline {5.11.1.17}MODEL\_DIR}{26}{subsubsection.5.11.1.17}%
+\contentsline {subsubsection}{\numberline {5.11.1.18}optimizer}{26}{subsubsection.5.11.1.18}%
+\contentsline {subsubsection}{\numberline {5.11.1.19}output}{26}{subsubsection.5.11.1.19}%
+\contentsline {subsubsection}{\numberline {5.11.1.20}train\_datagen}{26}{subsubsection.5.11.1.20}%
+\contentsline {subsubsection}{\numberline {5.11.1.21}train\_generator}{27}{subsubsection.5.11.1.21}%
+\contentsline {subsubsection}{\numberline {5.11.1.22}trainable}{27}{subsubsection.5.11.1.22}%
+\contentsline {subsubsection}{\numberline {5.11.1.23}val\_generator}{27}{subsubsection.5.11.1.23}%
+\contentsline {subsubsection}{\numberline {5.11.1.24}validation\_data}{27}{subsubsection.5.11.1.24}%
+\contentsline {subsubsection}{\numberline {5.11.1.25}x}{27}{subsubsection.5.11.1.25}%
+\contentsline {section}{\numberline {5.12}utils Namespace Reference}{27}{section.5.12}%
+\contentsline {chapter}{\numberline {6}File Documentation}{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{29}{section.6.1}%
+\contentsline {section}{\numberline {6.2}evaluate\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{30}{section.6.2}%
+\contentsline {section}{\numberline {6.3}manual\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}model\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}check.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{31}{section.6.3}%
+\contentsline {section}{\numberline {6.4}model\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}test.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{31}{section.6.4}%
+\contentsline {section}{\numberline {6.5}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{31}{section.6.5}%
+\contentsline {section}{\numberline {6.6}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ai\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}detection.py File Reference}{31}{section.6.6}%
+\contentsline {section}{\numberline {6.7}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}feature\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}detection.py File Reference}{32}{section.6.7}%
+\contentsline {section}{\numberline {6.8}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}image\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}loader.py File Reference}{32}{section.6.8}%
+\contentsline {section}{\numberline {6.9}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}utils.py File Reference}{32}{section.6.9}%
+\contentsline {section}{\numberline {6.10}test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}utils.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{32}{section.6.10}%
+\contentsline {section}{\numberline {6.11}train\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}lstm.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{32}{section.6.11}%
+\contentsline {section}{\numberline {6.12}train\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{33}{section.6.12}%
+\contentsline {section}{\numberline {6.13}utils/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}metrics.py File Reference}{34}{section.6.13}%
+\contentsline {chapter}{Index}{35}{section*.37}%

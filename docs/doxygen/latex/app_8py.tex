@@ -1,0 +1,133 @@
+\doxysection{app.\+py File Reference}
+\hypertarget{app_8py}{}\label{app_8py}\index{app.py@{app.py}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \doxymbox{\hyperlink{namespaceapp}{app}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a813a180e63cc84b53128561a7400e63c}{app.\+load\+\_\+ai\+\_\+models}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a2c5b508829b4995a003ebbea7efab85e}{app.\+page\+\_\+title}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_adcd4161b2b197e0cf698a7ae8ca84488}{app.\+page\+\_\+icon}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a32ab50610df58ba90f40d85d72ba822d}{app.\+layout}}
+\item 
+int \doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{app.\+IMG\+\_\+\+SIZE}} = 224
+\item 
+\doxymbox{\hyperlink{namespaceapp_a24dab84ca61c748acefb429b816ad8b1}{app.\+cnn\+\_\+model}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ad286c634e0bef51acd0c68644c2b7fee}{app.\+lstm\+\_\+model}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5e17b56d653d19abb6575dff7dbd9a29}{app.\+unsafe\+\_\+allow\+\_\+html}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a961e76fb8ef025010a52b2203a6a9ce7}{app.\+uploaded\+\_\+file}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a9ece81a0e5f9f7a4c2690c77c327575a}{app.\+image}} = Image.\+open(\doxymbox{\hyperlink{namespaceapp_a961e76fb8ef025010a52b2203a6a9ce7}{uploaded\+\_\+file}}).convert("{}RGB"{})
+\item 
+\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{app.\+img}} = np.\+array(\doxymbox{\hyperlink{namespaceapp_a9ece81a0e5f9f7a4c2690c77c327575a}{image}})
+\item 
+\doxymbox{\hyperlink{namespaceapp_a90207bddba7bc855fc4de03a2dfc3a46}{app.\+gray}} = cv2.\+cvt\+Color(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, cv2.\+COLOR\+\_\+\+RGB2\+GRAY)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a450fc58a9866b3d73832ab40377c0b5c}{app.\+c1}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5703148a7abdd437640cec462f5a9c15}{app.\+c2}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a4780b2a69f6bd9c96f5432171abbdae6}{app.\+c3}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a0ff686af9e64565e047fe2f7fb0fd22e}{app.\+caption}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a36cff91f27ccaacfba406bf275d66b76}{app.\+width}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a837829dda62f12cef2d21f66ecde5f26}{app.\+tab1}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ab72f29dede04fb9ab9d5d08f5f8faa49}{app.\+tab2}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a6cbefd4429bfc0cf4ef3aff2de075a0a}{app.\+tab3}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a59df6d7bb42cde0cf6d1c1697142359b}{app.\+tab4}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ad8fb8612cc8ff6b297bfabd4f8cecadc}{app.\+orb}} = cv2.\+ORB\+\_\+create()
+\item 
+\doxymbox{\hyperlink{namespaceapp_afe41462dbbb6e14f1044449c7d63fd0f}{app.\+kp\+\_\+orb}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a0aed145450737057c90b72c7488a3349}{app.\+des\+\_\+orb}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a078a2cd6b1381b2148c94d58a426214a}{app.\+img\+\_\+orb}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_afe41462dbbb6e14f1044449c7d63fd0f}{kp\+\_\+orb}}, None, color=(0, 255, 0))
+\item 
+\doxymbox{\hyperlink{namespaceapp_ace6829c27b4cbe68557032443c9e98bd}{app.\+akaze}} = cv2.\+AKAZE\+\_\+create()
+\item 
+\doxymbox{\hyperlink{namespaceapp_af6112fc522feebee791f61f60f7d201d}{app.\+kp\+\_\+akaze}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a61324b1cf3d52c79418b58de42663e6f}{app.\+des\+\_\+akaze}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a2d29c3fc50d1f6ca1b470b113af798af}{app.\+img\+\_\+akaze}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_af6112fc522feebee791f61f60f7d201d}{kp\+\_\+akaze}}, None, color=(255, 0, 0))
+\item 
+\doxymbox{\hyperlink{namespaceapp_ab5ca4aa5b486a3aed2248b9096194122}{app.\+sift}} = cv2.\+SIFT\+\_\+create()
+\item 
+\doxymbox{\hyperlink{namespaceapp_a202f002f9709a08133bf261e890ea686}{app.\+kp\+\_\+sift}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a4a5343b2d2797b8a4f9cd944c8093cb4}{app.\+des\+\_\+sift}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a1bc45ff33a81e53fe24bdaaae671ac75}{app.\+img\+\_\+sift}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_a202f002f9709a08133bf261e890ea686}{kp\+\_\+sift}}, None, color=(0, 0, 255))
+\item 
+\doxymbox{\hyperlink{namespaceapp_a53b9663b10d0373bb7acbd49ad449547}{app.\+surf}} = cv2.\+xfeatures2d.\+SURF\+\_\+create(400)
+\item 
+\doxymbox{\hyperlink{namespaceapp_aaef51e7a2f0739fd037034b7f6c7d6b9}{app.\+kp\+\_\+surf}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_afc29e68bb43ef0a609e43a9499c59f1a}{app.\+des\+\_\+surf}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a502a77741dd384004e81b567935f9608}{app.\+img\+\_\+surf}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_aaef51e7a2f0739fd037034b7f6c7d6b9}{kp\+\_\+surf}}, None, color=(255, 255, 0))
+\item 
+\doxymbox{\hyperlink{namespaceapp_adea557ee9369ad2a467a76298b289fb4}{app.\+edges}} = cv2.\+Canny(\doxymbox{\hyperlink{namespaceapp_a90207bddba7bc855fc4de03a2dfc3a46}{gray}}, 100, 200)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a21256bb7793ec0e75205974050c8b188}{app.\+contours}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ac23dc1776ced4274061839ea54c17f7b}{app.\+\_\+}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_acfb78cec59774f2a9979bf32058c928e}{app.\+marked\+\_\+img}} = img.\+copy()
+\item 
+int \doxymbox{\hyperlink{namespaceapp_af1bfcec749f03ddb04e50e8dce9f56a1}{app.\+suspicious\+\_\+count}} = 0
+\item 
+\doxymbox{\hyperlink{namespaceapp_a96cbe5b8d74224822ee0845653ec75a5}{app.\+area}} = cv2.\+contour\+Area(contour)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a317ac56fdcfc4eb3cb88af0137671fa8}{app.\+x}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a32fcb344166e29e2bc1fa7e3346fa970}{app.\+y}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5280e38eb3edec5bf25c7c3d6ec9a1db}{app.\+w}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a4e9890c9d712be74692bdc671a9afd9f}{app.\+h}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{app.\+ai\+\_\+image}} = cv2.\+resize(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, (\doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{IMG\+\_\+\+SIZE}}, \doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{IMG\+\_\+\+SIZE}}))
+\item 
+\doxymbox{\hyperlink{namespaceapp_aa5c0fb49f4954eb4a350952ae2ddc217}{app.\+cnn\+\_\+input}} = np.\+expand\+\_\+dims(\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{ai\+\_\+image}}, axis=0)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a1e6527fc2a2b6506c428211aac63b223}{app.\+lstm\+\_\+input}} = np.\+expand\+\_\+dims(\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{ai\+\_\+image}}, axis=0)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{app.\+cnn\+\_\+prediction}} = cnn\+\_\+model.\+predict(\doxymbox{\hyperlink{namespaceapp_aa5c0fb49f4954eb4a350952ae2ddc217}{cnn\+\_\+input}}, verbose=0)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{app.\+lstm\+\_\+prediction}} = lstm\+\_\+model.\+predict(\doxymbox{\hyperlink{namespaceapp_a1e6527fc2a2b6506c428211aac63b223}{lstm\+\_\+input}}, verbose=0)
+\item 
+int \doxymbox{\hyperlink{namespaceapp_ac83048754b8aa1e31459edf11130b4a1}{app.\+cnn\+\_\+real\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{cnn\+\_\+prediction}}\+[0]\+\+[0]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+int \doxymbox{\hyperlink{namespaceapp_ab7fed9f7f9b10144b993f4635d0203e3}{app.\+cnn\+\_\+fake\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{cnn\+\_\+prediction}}\+[0]\+\+[1]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+int \doxymbox{\hyperlink{namespaceapp_a3d1996cd70c07edecdfe271ee4e87461}{app.\+lstm\+\_\+real\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{lstm\+\_\+prediction}}\+[0]\+\+[0]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+int \doxymbox{\hyperlink{namespaceapp_a024987cb6b8bf14069e76df1702e1939}{app.\+lstm\+\_\+fake\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{lstm\+\_\+prediction}}\+[0]\+\+[1]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+tuple \doxymbox{\hyperlink{namespaceapp_ab447055a061bf31f856d3c93782a9895}{app.\+final\+\_\+score}} = (\doxymbox{\hyperlink{namespaceapp_ab7fed9f7f9b10144b993f4635d0203e3}{cnn\+\_\+fake\+\_\+score}} \texorpdfstring{$\ast$}{*} 0.\+7) + (\doxymbox{\hyperlink{namespaceapp_a024987cb6b8bf14069e76df1702e1939}{lstm\+\_\+fake\+\_\+score}} \texorpdfstring{$\ast$}{*} 0.\+3)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a7a411ea567ac1ca0c5c461278144a7e1}{app.\+col1}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5a5fda4e66a5b10cce19391f477e1298}{app.\+col2}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a6741c59d19870c5f024fd2337c49ce92}{app.\+col3}}
+\end{DoxyCompactItemize}

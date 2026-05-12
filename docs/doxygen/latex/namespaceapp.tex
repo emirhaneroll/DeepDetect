@@ -1,0 +1,506 @@
+\doxysection{app Namespace Reference}
+\hypertarget{namespaceapp}{}\label{namespaceapp}\index{app@{app}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a813a180e63cc84b53128561a7400e63c}{load\+\_\+ai\+\_\+models}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a2c5b508829b4995a003ebbea7efab85e}{page\+\_\+title}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_adcd4161b2b197e0cf698a7ae8ca84488}{page\+\_\+icon}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a32ab50610df58ba90f40d85d72ba822d}{layout}}
+\item 
+int \doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{IMG\+\_\+\+SIZE}} = 224
+\item 
+\doxymbox{\hyperlink{namespaceapp_a24dab84ca61c748acefb429b816ad8b1}{cnn\+\_\+model}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ad286c634e0bef51acd0c68644c2b7fee}{lstm\+\_\+model}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5e17b56d653d19abb6575dff7dbd9a29}{unsafe\+\_\+allow\+\_\+html}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a961e76fb8ef025010a52b2203a6a9ce7}{uploaded\+\_\+file}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a9ece81a0e5f9f7a4c2690c77c327575a}{image}} = Image.\+open(\doxymbox{\hyperlink{namespaceapp_a961e76fb8ef025010a52b2203a6a9ce7}{uploaded\+\_\+file}}).convert("{}RGB"{})
+\item 
+\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}} = np.\+array(\doxymbox{\hyperlink{namespaceapp_a9ece81a0e5f9f7a4c2690c77c327575a}{image}})
+\item 
+\doxymbox{\hyperlink{namespaceapp_a90207bddba7bc855fc4de03a2dfc3a46}{gray}} = cv2.\+cvt\+Color(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, cv2.\+COLOR\+\_\+\+RGB2\+GRAY)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a450fc58a9866b3d73832ab40377c0b5c}{c1}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5703148a7abdd437640cec462f5a9c15}{c2}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a4780b2a69f6bd9c96f5432171abbdae6}{c3}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a0ff686af9e64565e047fe2f7fb0fd22e}{caption}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a36cff91f27ccaacfba406bf275d66b76}{width}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a837829dda62f12cef2d21f66ecde5f26}{tab1}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ab72f29dede04fb9ab9d5d08f5f8faa49}{tab2}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a6cbefd4429bfc0cf4ef3aff2de075a0a}{tab3}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a59df6d7bb42cde0cf6d1c1697142359b}{tab4}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ad8fb8612cc8ff6b297bfabd4f8cecadc}{orb}} = cv2.\+ORB\+\_\+create()
+\item 
+\doxymbox{\hyperlink{namespaceapp_afe41462dbbb6e14f1044449c7d63fd0f}{kp\+\_\+orb}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a0aed145450737057c90b72c7488a3349}{des\+\_\+orb}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a078a2cd6b1381b2148c94d58a426214a}{img\+\_\+orb}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_afe41462dbbb6e14f1044449c7d63fd0f}{kp\+\_\+orb}}, None, color=(0, 255, 0))
+\item 
+\doxymbox{\hyperlink{namespaceapp_ace6829c27b4cbe68557032443c9e98bd}{akaze}} = cv2.\+AKAZE\+\_\+create()
+\item 
+\doxymbox{\hyperlink{namespaceapp_af6112fc522feebee791f61f60f7d201d}{kp\+\_\+akaze}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a61324b1cf3d52c79418b58de42663e6f}{des\+\_\+akaze}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a2d29c3fc50d1f6ca1b470b113af798af}{img\+\_\+akaze}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_af6112fc522feebee791f61f60f7d201d}{kp\+\_\+akaze}}, None, color=(255, 0, 0))
+\item 
+\doxymbox{\hyperlink{namespaceapp_ab5ca4aa5b486a3aed2248b9096194122}{sift}} = cv2.\+SIFT\+\_\+create()
+\item 
+\doxymbox{\hyperlink{namespaceapp_a202f002f9709a08133bf261e890ea686}{kp\+\_\+sift}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a4a5343b2d2797b8a4f9cd944c8093cb4}{des\+\_\+sift}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a1bc45ff33a81e53fe24bdaaae671ac75}{img\+\_\+sift}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_a202f002f9709a08133bf261e890ea686}{kp\+\_\+sift}}, None, color=(0, 0, 255))
+\item 
+\doxymbox{\hyperlink{namespaceapp_a53b9663b10d0373bb7acbd49ad449547}{surf}} = cv2.\+xfeatures2d.\+SURF\+\_\+create(400)
+\item 
+\doxymbox{\hyperlink{namespaceapp_aaef51e7a2f0739fd037034b7f6c7d6b9}{kp\+\_\+surf}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_afc29e68bb43ef0a609e43a9499c59f1a}{des\+\_\+surf}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a502a77741dd384004e81b567935f9608}{img\+\_\+surf}} = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_aaef51e7a2f0739fd037034b7f6c7d6b9}{kp\+\_\+surf}}, None, color=(255, 255, 0))
+\item 
+\doxymbox{\hyperlink{namespaceapp_adea557ee9369ad2a467a76298b289fb4}{edges}} = cv2.\+Canny(\doxymbox{\hyperlink{namespaceapp_a90207bddba7bc855fc4de03a2dfc3a46}{gray}}, 100, 200)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a21256bb7793ec0e75205974050c8b188}{contours}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ac23dc1776ced4274061839ea54c17f7b}{\+\_\+}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_acfb78cec59774f2a9979bf32058c928e}{marked\+\_\+img}} = img.\+copy()
+\item 
+int \doxymbox{\hyperlink{namespaceapp_af1bfcec749f03ddb04e50e8dce9f56a1}{suspicious\+\_\+count}} = 0
+\item 
+\doxymbox{\hyperlink{namespaceapp_a96cbe5b8d74224822ee0845653ec75a5}{area}} = cv2.\+contour\+Area(contour)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a317ac56fdcfc4eb3cb88af0137671fa8}{x}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a32fcb344166e29e2bc1fa7e3346fa970}{y}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5280e38eb3edec5bf25c7c3d6ec9a1db}{w}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a4e9890c9d712be74692bdc671a9afd9f}{h}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{ai\+\_\+image}} = cv2.\+resize(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, (\doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{IMG\+\_\+\+SIZE}}, \doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{IMG\+\_\+\+SIZE}}))
+\item 
+\doxymbox{\hyperlink{namespaceapp_aa5c0fb49f4954eb4a350952ae2ddc217}{cnn\+\_\+input}} = np.\+expand\+\_\+dims(\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{ai\+\_\+image}}, axis=0)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a1e6527fc2a2b6506c428211aac63b223}{lstm\+\_\+input}} = np.\+expand\+\_\+dims(\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{ai\+\_\+image}}, axis=0)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{cnn\+\_\+prediction}} = cnn\+\_\+model.\+predict(\doxymbox{\hyperlink{namespaceapp_aa5c0fb49f4954eb4a350952ae2ddc217}{cnn\+\_\+input}}, verbose=0)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{lstm\+\_\+prediction}} = lstm\+\_\+model.\+predict(\doxymbox{\hyperlink{namespaceapp_a1e6527fc2a2b6506c428211aac63b223}{lstm\+\_\+input}}, verbose=0)
+\item 
+int \doxymbox{\hyperlink{namespaceapp_ac83048754b8aa1e31459edf11130b4a1}{cnn\+\_\+real\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{cnn\+\_\+prediction}}\+[0]\+\+[0]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+int \doxymbox{\hyperlink{namespaceapp_ab7fed9f7f9b10144b993f4635d0203e3}{cnn\+\_\+fake\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{cnn\+\_\+prediction}}\+[0]\+\+[1]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+int \doxymbox{\hyperlink{namespaceapp_a3d1996cd70c07edecdfe271ee4e87461}{lstm\+\_\+real\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{lstm\+\_\+prediction}}\+[0]\+\+[0]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+int \doxymbox{\hyperlink{namespaceapp_a024987cb6b8bf14069e76df1702e1939}{lstm\+\_\+fake\+\_\+score}} = \doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{lstm\+\_\+prediction}}\+[0]\+\+[1]\+ \texorpdfstring{$\ast$}{*} 100
+\item 
+tuple \doxymbox{\hyperlink{namespaceapp_ab447055a061bf31f856d3c93782a9895}{final\+\_\+score}} = (\doxymbox{\hyperlink{namespaceapp_ab7fed9f7f9b10144b993f4635d0203e3}{cnn\+\_\+fake\+\_\+score}} \texorpdfstring{$\ast$}{*} 0.\+7) + (\doxymbox{\hyperlink{namespaceapp_a024987cb6b8bf14069e76df1702e1939}{lstm\+\_\+fake\+\_\+score}} \texorpdfstring{$\ast$}{*} 0.\+3)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a7a411ea567ac1ca0c5c461278144a7e1}{col1}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a5a5fda4e66a5b10cce19391f477e1298}{col2}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a6741c59d19870c5f024fd2337c49ce92}{col3}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{namespaceapp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapp_a813a180e63cc84b53128561a7400e63c}\index{app@{app}!load\_ai\_models@{load\_ai\_models}}
+\index{load\_ai\_models@{load\_ai\_models}!app@{app}}
+\doxysubsubsection{\texorpdfstring{load\_ai\_models()}{load\_ai\_models()}}
+{\footnotesize\ttfamily \label{namespaceapp_a813a180e63cc84b53128561a7400e63c} 
+app.\+load\+\_\+ai\+\_\+models (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\label{doc-var-members}
+\Hypertarget{namespaceapp_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespaceapp_ac23dc1776ced4274061839ea54c17f7b}\index{app@{app}!\_@{\_}}
+\index{\_@{\_}!app@{app}}
+\doxysubsubsection{\texorpdfstring{\_}{\_}}
+{\footnotesize\ttfamily \label{namespaceapp_ac23dc1776ced4274061839ea54c17f7b} 
+app.\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{namespaceapp_aa26179460a00025c14c0117f718a6896}\index{app@{app}!ai\_image@{ai\_image}}
+\index{ai\_image@{ai\_image}!app@{app}}
+\doxysubsubsection{\texorpdfstring{ai\_image}{ai\_image}}
+{\footnotesize\ttfamily \label{namespaceapp_aa26179460a00025c14c0117f718a6896} 
+app.\+ai\+\_\+image = cv2.\+resize(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, (\doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{IMG\+\_\+\+SIZE}}, \doxymbox{\hyperlink{namespaceapp_a3a9d990a676327ea205abb06995063e9}{IMG\+\_\+\+SIZE}}))}
+
+\Hypertarget{namespaceapp_ace6829c27b4cbe68557032443c9e98bd}\index{app@{app}!akaze@{akaze}}
+\index{akaze@{akaze}!app@{app}}
+\doxysubsubsection{\texorpdfstring{akaze}{akaze}}
+{\footnotesize\ttfamily \label{namespaceapp_ace6829c27b4cbe68557032443c9e98bd} 
+app.\+akaze = cv2.\+AKAZE\+\_\+create()}
+
+\Hypertarget{namespaceapp_a96cbe5b8d74224822ee0845653ec75a5}\index{app@{app}!area@{area}}
+\index{area@{area}!app@{app}}
+\doxysubsubsection{\texorpdfstring{area}{area}}
+{\footnotesize\ttfamily \label{namespaceapp_a96cbe5b8d74224822ee0845653ec75a5} 
+app.\+area = cv2.\+contour\+Area(contour)}
+
+\Hypertarget{namespaceapp_a450fc58a9866b3d73832ab40377c0b5c}\index{app@{app}!c1@{c1}}
+\index{c1@{c1}!app@{app}}
+\doxysubsubsection{\texorpdfstring{c1}{c1}}
+{\footnotesize\ttfamily \label{namespaceapp_a450fc58a9866b3d73832ab40377c0b5c} 
+app.\+c1}
+
+\Hypertarget{namespaceapp_a5703148a7abdd437640cec462f5a9c15}\index{app@{app}!c2@{c2}}
+\index{c2@{c2}!app@{app}}
+\doxysubsubsection{\texorpdfstring{c2}{c2}}
+{\footnotesize\ttfamily \label{namespaceapp_a5703148a7abdd437640cec462f5a9c15} 
+app.\+c2}
+
+\Hypertarget{namespaceapp_a4780b2a69f6bd9c96f5432171abbdae6}\index{app@{app}!c3@{c3}}
+\index{c3@{c3}!app@{app}}
+\doxysubsubsection{\texorpdfstring{c3}{c3}}
+{\footnotesize\ttfamily \label{namespaceapp_a4780b2a69f6bd9c96f5432171abbdae6} 
+app.\+c3}
+
+\Hypertarget{namespaceapp_a0ff686af9e64565e047fe2f7fb0fd22e}\index{app@{app}!caption@{caption}}
+\index{caption@{caption}!app@{app}}
+\doxysubsubsection{\texorpdfstring{caption}{caption}}
+{\footnotesize\ttfamily \label{namespaceapp_a0ff686af9e64565e047fe2f7fb0fd22e} 
+app.\+caption}
+
+\Hypertarget{namespaceapp_ab7fed9f7f9b10144b993f4635d0203e3}\index{app@{app}!cnn\_fake\_score@{cnn\_fake\_score}}
+\index{cnn\_fake\_score@{cnn\_fake\_score}!app@{app}}
+\doxysubsubsection{\texorpdfstring{cnn\_fake\_score}{cnn\_fake\_score}}
+{\footnotesize\ttfamily \label{namespaceapp_ab7fed9f7f9b10144b993f4635d0203e3} 
+int app.\+cnn\+\_\+fake\+\_\+score = \doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{cnn\+\_\+prediction}}\+[0]\+\+[1]\+ \texorpdfstring{$\ast$}{*} 100}
+
+\Hypertarget{namespaceapp_aa5c0fb49f4954eb4a350952ae2ddc217}\index{app@{app}!cnn\_input@{cnn\_input}}
+\index{cnn\_input@{cnn\_input}!app@{app}}
+\doxysubsubsection{\texorpdfstring{cnn\_input}{cnn\_input}}
+{\footnotesize\ttfamily \label{namespaceapp_aa5c0fb49f4954eb4a350952ae2ddc217} 
+app.\+cnn\+\_\+input = np.\+expand\+\_\+dims(\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{ai\+\_\+image}}, axis=0)}
+
+\Hypertarget{namespaceapp_a24dab84ca61c748acefb429b816ad8b1}\index{app@{app}!cnn\_model@{cnn\_model}}
+\index{cnn\_model@{cnn\_model}!app@{app}}
+\doxysubsubsection{\texorpdfstring{cnn\_model}{cnn\_model}}
+{\footnotesize\ttfamily \label{namespaceapp_a24dab84ca61c748acefb429b816ad8b1} 
+app.\+cnn\+\_\+model}
+
+\Hypertarget{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}\index{app@{app}!cnn\_prediction@{cnn\_prediction}}
+\index{cnn\_prediction@{cnn\_prediction}!app@{app}}
+\doxysubsubsection{\texorpdfstring{cnn\_prediction}{cnn\_prediction}}
+{\footnotesize\ttfamily \label{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d} 
+app.\+cnn\+\_\+prediction = cnn\+\_\+model.\+predict(\doxymbox{\hyperlink{namespaceapp_aa5c0fb49f4954eb4a350952ae2ddc217}{cnn\+\_\+input}}, verbose=0)}
+
+\Hypertarget{namespaceapp_ac83048754b8aa1e31459edf11130b4a1}\index{app@{app}!cnn\_real\_score@{cnn\_real\_score}}
+\index{cnn\_real\_score@{cnn\_real\_score}!app@{app}}
+\doxysubsubsection{\texorpdfstring{cnn\_real\_score}{cnn\_real\_score}}
+{\footnotesize\ttfamily \label{namespaceapp_ac83048754b8aa1e31459edf11130b4a1} 
+int app.\+cnn\+\_\+real\+\_\+score = \doxymbox{\hyperlink{namespaceapp_a64a245617fa51f8a0ed42f66f5bc8c1d}{cnn\+\_\+prediction}}\+[0]\+\+[0]\+ \texorpdfstring{$\ast$}{*} 100}
+
+\Hypertarget{namespaceapp_a7a411ea567ac1ca0c5c461278144a7e1}\index{app@{app}!col1@{col1}}
+\index{col1@{col1}!app@{app}}
+\doxysubsubsection{\texorpdfstring{col1}{col1}}
+{\footnotesize\ttfamily \label{namespaceapp_a7a411ea567ac1ca0c5c461278144a7e1} 
+app.\+col1}
+
+\Hypertarget{namespaceapp_a5a5fda4e66a5b10cce19391f477e1298}\index{app@{app}!col2@{col2}}
+\index{col2@{col2}!app@{app}}
+\doxysubsubsection{\texorpdfstring{col2}{col2}}
+{\footnotesize\ttfamily \label{namespaceapp_a5a5fda4e66a5b10cce19391f477e1298} 
+app.\+col2}
+
+\Hypertarget{namespaceapp_a6741c59d19870c5f024fd2337c49ce92}\index{app@{app}!col3@{col3}}
+\index{col3@{col3}!app@{app}}
+\doxysubsubsection{\texorpdfstring{col3}{col3}}
+{\footnotesize\ttfamily \label{namespaceapp_a6741c59d19870c5f024fd2337c49ce92} 
+app.\+col3}
+
+\Hypertarget{namespaceapp_a21256bb7793ec0e75205974050c8b188}\index{app@{app}!contours@{contours}}
+\index{contours@{contours}!app@{app}}
+\doxysubsubsection{\texorpdfstring{contours}{contours}}
+{\footnotesize\ttfamily \label{namespaceapp_a21256bb7793ec0e75205974050c8b188} 
+app.\+contours}
+
+\Hypertarget{namespaceapp_a61324b1cf3d52c79418b58de42663e6f}\index{app@{app}!des\_akaze@{des\_akaze}}
+\index{des\_akaze@{des\_akaze}!app@{app}}
+\doxysubsubsection{\texorpdfstring{des\_akaze}{des\_akaze}}
+{\footnotesize\ttfamily \label{namespaceapp_a61324b1cf3d52c79418b58de42663e6f} 
+app.\+des\+\_\+akaze}
+
+\Hypertarget{namespaceapp_a0aed145450737057c90b72c7488a3349}\index{app@{app}!des\_orb@{des\_orb}}
+\index{des\_orb@{des\_orb}!app@{app}}
+\doxysubsubsection{\texorpdfstring{des\_orb}{des\_orb}}
+{\footnotesize\ttfamily \label{namespaceapp_a0aed145450737057c90b72c7488a3349} 
+app.\+des\+\_\+orb}
+
+\Hypertarget{namespaceapp_a4a5343b2d2797b8a4f9cd944c8093cb4}\index{app@{app}!des\_sift@{des\_sift}}
+\index{des\_sift@{des\_sift}!app@{app}}
+\doxysubsubsection{\texorpdfstring{des\_sift}{des\_sift}}
+{\footnotesize\ttfamily \label{namespaceapp_a4a5343b2d2797b8a4f9cd944c8093cb4} 
+app.\+des\+\_\+sift}
+
+\Hypertarget{namespaceapp_afc29e68bb43ef0a609e43a9499c59f1a}\index{app@{app}!des\_surf@{des\_surf}}
+\index{des\_surf@{des\_surf}!app@{app}}
+\doxysubsubsection{\texorpdfstring{des\_surf}{des\_surf}}
+{\footnotesize\ttfamily \label{namespaceapp_afc29e68bb43ef0a609e43a9499c59f1a} 
+app.\+des\+\_\+surf}
+
+\Hypertarget{namespaceapp_adea557ee9369ad2a467a76298b289fb4}\index{app@{app}!edges@{edges}}
+\index{edges@{edges}!app@{app}}
+\doxysubsubsection{\texorpdfstring{edges}{edges}}
+{\footnotesize\ttfamily \label{namespaceapp_adea557ee9369ad2a467a76298b289fb4} 
+app.\+edges = cv2.\+Canny(\doxymbox{\hyperlink{namespaceapp_a90207bddba7bc855fc4de03a2dfc3a46}{gray}}, 100, 200)}
+
+\Hypertarget{namespaceapp_ab447055a061bf31f856d3c93782a9895}\index{app@{app}!final\_score@{final\_score}}
+\index{final\_score@{final\_score}!app@{app}}
+\doxysubsubsection{\texorpdfstring{final\_score}{final\_score}}
+{\footnotesize\ttfamily \label{namespaceapp_ab447055a061bf31f856d3c93782a9895} 
+tuple app.\+final\+\_\+score = (\doxymbox{\hyperlink{namespaceapp_ab7fed9f7f9b10144b993f4635d0203e3}{cnn\+\_\+fake\+\_\+score}} \texorpdfstring{$\ast$}{*} 0.\+7) + (\doxymbox{\hyperlink{namespaceapp_a024987cb6b8bf14069e76df1702e1939}{lstm\+\_\+fake\+\_\+score}} \texorpdfstring{$\ast$}{*} 0.\+3)}
+
+\Hypertarget{namespaceapp_a90207bddba7bc855fc4de03a2dfc3a46}\index{app@{app}!gray@{gray}}
+\index{gray@{gray}!app@{app}}
+\doxysubsubsection{\texorpdfstring{gray}{gray}}
+{\footnotesize\ttfamily \label{namespaceapp_a90207bddba7bc855fc4de03a2dfc3a46} 
+app.\+gray = cv2.\+cvt\+Color(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, cv2.\+COLOR\+\_\+\+RGB2\+GRAY)}
+
+\Hypertarget{namespaceapp_a4e9890c9d712be74692bdc671a9afd9f}\index{app@{app}!h@{h}}
+\index{h@{h}!app@{app}}
+\doxysubsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily \label{namespaceapp_a4e9890c9d712be74692bdc671a9afd9f} 
+app.\+h}
+
+\Hypertarget{namespaceapp_a9ece81a0e5f9f7a4c2690c77c327575a}\index{app@{app}!image@{image}}
+\index{image@{image}!app@{app}}
+\doxysubsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily \label{namespaceapp_a9ece81a0e5f9f7a4c2690c77c327575a} 
+app.\+image = Image.\+open(\doxymbox{\hyperlink{namespaceapp_a961e76fb8ef025010a52b2203a6a9ce7}{uploaded\+\_\+file}}).convert("{}RGB"{})}
+
+\Hypertarget{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}\index{app@{app}!img@{img}}
+\index{img@{img}!app@{app}}
+\doxysubsubsection{\texorpdfstring{img}{img}}
+{\footnotesize\ttfamily \label{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0} 
+app.\+img = np.\+array(\doxymbox{\hyperlink{namespaceapp_a9ece81a0e5f9f7a4c2690c77c327575a}{image}})}
+
+\Hypertarget{namespaceapp_a2d29c3fc50d1f6ca1b470b113af798af}\index{app@{app}!img\_akaze@{img\_akaze}}
+\index{img\_akaze@{img\_akaze}!app@{app}}
+\doxysubsubsection{\texorpdfstring{img\_akaze}{img\_akaze}}
+{\footnotesize\ttfamily \label{namespaceapp_a2d29c3fc50d1f6ca1b470b113af798af} 
+app.\+img\+\_\+akaze = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_af6112fc522feebee791f61f60f7d201d}{kp\+\_\+akaze}}, None, color=(255, 0, 0))}
+
+\Hypertarget{namespaceapp_a078a2cd6b1381b2148c94d58a426214a}\index{app@{app}!img\_orb@{img\_orb}}
+\index{img\_orb@{img\_orb}!app@{app}}
+\doxysubsubsection{\texorpdfstring{img\_orb}{img\_orb}}
+{\footnotesize\ttfamily \label{namespaceapp_a078a2cd6b1381b2148c94d58a426214a} 
+app.\+img\+\_\+orb = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_afe41462dbbb6e14f1044449c7d63fd0f}{kp\+\_\+orb}}, None, color=(0, 255, 0))}
+
+\Hypertarget{namespaceapp_a1bc45ff33a81e53fe24bdaaae671ac75}\index{app@{app}!img\_sift@{img\_sift}}
+\index{img\_sift@{img\_sift}!app@{app}}
+\doxysubsubsection{\texorpdfstring{img\_sift}{img\_sift}}
+{\footnotesize\ttfamily \label{namespaceapp_a1bc45ff33a81e53fe24bdaaae671ac75} 
+app.\+img\+\_\+sift = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_a202f002f9709a08133bf261e890ea686}{kp\+\_\+sift}}, None, color=(0, 0, 255))}
+
+\Hypertarget{namespaceapp_a3a9d990a676327ea205abb06995063e9}\index{app@{app}!IMG\_SIZE@{IMG\_SIZE}}
+\index{IMG\_SIZE@{IMG\_SIZE}!app@{app}}
+\doxysubsubsection{\texorpdfstring{IMG\_SIZE}{IMG\_SIZE}}
+{\footnotesize\ttfamily \label{namespaceapp_a3a9d990a676327ea205abb06995063e9} 
+int app.\+IMG\+\_\+\+SIZE = 224}
+
+\Hypertarget{namespaceapp_a502a77741dd384004e81b567935f9608}\index{app@{app}!img\_surf@{img\_surf}}
+\index{img\_surf@{img\_surf}!app@{app}}
+\doxysubsubsection{\texorpdfstring{img\_surf}{img\_surf}}
+{\footnotesize\ttfamily \label{namespaceapp_a502a77741dd384004e81b567935f9608} 
+app.\+img\+\_\+surf = cv2.\+draw\+Keypoints(\doxymbox{\hyperlink{namespaceapp_a6889ce52165936ae0a8a639b7849ebf0}{img}}, \doxymbox{\hyperlink{namespaceapp_aaef51e7a2f0739fd037034b7f6c7d6b9}{kp\+\_\+surf}}, None, color=(255, 255, 0))}
+
+\Hypertarget{namespaceapp_af6112fc522feebee791f61f60f7d201d}\index{app@{app}!kp\_akaze@{kp\_akaze}}
+\index{kp\_akaze@{kp\_akaze}!app@{app}}
+\doxysubsubsection{\texorpdfstring{kp\_akaze}{kp\_akaze}}
+{\footnotesize\ttfamily \label{namespaceapp_af6112fc522feebee791f61f60f7d201d} 
+app.\+kp\+\_\+akaze}
+
+\Hypertarget{namespaceapp_afe41462dbbb6e14f1044449c7d63fd0f}\index{app@{app}!kp\_orb@{kp\_orb}}
+\index{kp\_orb@{kp\_orb}!app@{app}}
+\doxysubsubsection{\texorpdfstring{kp\_orb}{kp\_orb}}
+{\footnotesize\ttfamily \label{namespaceapp_afe41462dbbb6e14f1044449c7d63fd0f} 
+app.\+kp\+\_\+orb}
+
+\Hypertarget{namespaceapp_a202f002f9709a08133bf261e890ea686}\index{app@{app}!kp\_sift@{kp\_sift}}
+\index{kp\_sift@{kp\_sift}!app@{app}}
+\doxysubsubsection{\texorpdfstring{kp\_sift}{kp\_sift}}
+{\footnotesize\ttfamily \label{namespaceapp_a202f002f9709a08133bf261e890ea686} 
+app.\+kp\+\_\+sift}
+
+\Hypertarget{namespaceapp_aaef51e7a2f0739fd037034b7f6c7d6b9}\index{app@{app}!kp\_surf@{kp\_surf}}
+\index{kp\_surf@{kp\_surf}!app@{app}}
+\doxysubsubsection{\texorpdfstring{kp\_surf}{kp\_surf}}
+{\footnotesize\ttfamily \label{namespaceapp_aaef51e7a2f0739fd037034b7f6c7d6b9} 
+app.\+kp\+\_\+surf}
+
+\Hypertarget{namespaceapp_a32ab50610df58ba90f40d85d72ba822d}\index{app@{app}!layout@{layout}}
+\index{layout@{layout}!app@{app}}
+\doxysubsubsection{\texorpdfstring{layout}{layout}}
+{\footnotesize\ttfamily \label{namespaceapp_a32ab50610df58ba90f40d85d72ba822d} 
+app.\+layout}
+
+\Hypertarget{namespaceapp_a024987cb6b8bf14069e76df1702e1939}\index{app@{app}!lstm\_fake\_score@{lstm\_fake\_score}}
+\index{lstm\_fake\_score@{lstm\_fake\_score}!app@{app}}
+\doxysubsubsection{\texorpdfstring{lstm\_fake\_score}{lstm\_fake\_score}}
+{\footnotesize\ttfamily \label{namespaceapp_a024987cb6b8bf14069e76df1702e1939} 
+int app.\+lstm\+\_\+fake\+\_\+score = \doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{lstm\+\_\+prediction}}\+[0]\+\+[1]\+ \texorpdfstring{$\ast$}{*} 100}
+
+\Hypertarget{namespaceapp_a1e6527fc2a2b6506c428211aac63b223}\index{app@{app}!lstm\_input@{lstm\_input}}
+\index{lstm\_input@{lstm\_input}!app@{app}}
+\doxysubsubsection{\texorpdfstring{lstm\_input}{lstm\_input}}
+{\footnotesize\ttfamily \label{namespaceapp_a1e6527fc2a2b6506c428211aac63b223} 
+app.\+lstm\+\_\+input = np.\+expand\+\_\+dims(\doxymbox{\hyperlink{namespaceapp_aa26179460a00025c14c0117f718a6896}{ai\+\_\+image}}, axis=0)}
+
+\Hypertarget{namespaceapp_ad286c634e0bef51acd0c68644c2b7fee}\index{app@{app}!lstm\_model@{lstm\_model}}
+\index{lstm\_model@{lstm\_model}!app@{app}}
+\doxysubsubsection{\texorpdfstring{lstm\_model}{lstm\_model}}
+{\footnotesize\ttfamily \label{namespaceapp_ad286c634e0bef51acd0c68644c2b7fee} 
+app.\+lstm\+\_\+model}
+
+\Hypertarget{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}\index{app@{app}!lstm\_prediction@{lstm\_prediction}}
+\index{lstm\_prediction@{lstm\_prediction}!app@{app}}
+\doxysubsubsection{\texorpdfstring{lstm\_prediction}{lstm\_prediction}}
+{\footnotesize\ttfamily \label{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079} 
+app.\+lstm\+\_\+prediction = lstm\+\_\+model.\+predict(\doxymbox{\hyperlink{namespaceapp_a1e6527fc2a2b6506c428211aac63b223}{lstm\+\_\+input}}, verbose=0)}
+
+\Hypertarget{namespaceapp_a3d1996cd70c07edecdfe271ee4e87461}\index{app@{app}!lstm\_real\_score@{lstm\_real\_score}}
+\index{lstm\_real\_score@{lstm\_real\_score}!app@{app}}
+\doxysubsubsection{\texorpdfstring{lstm\_real\_score}{lstm\_real\_score}}
+{\footnotesize\ttfamily \label{namespaceapp_a3d1996cd70c07edecdfe271ee4e87461} 
+int app.\+lstm\+\_\+real\+\_\+score = \doxymbox{\hyperlink{namespaceapp_a89e78f85fe3bcd29fbfa02f3ac9f7079}{lstm\+\_\+prediction}}\+[0]\+\+[0]\+ \texorpdfstring{$\ast$}{*} 100}
+
+\Hypertarget{namespaceapp_acfb78cec59774f2a9979bf32058c928e}\index{app@{app}!marked\_img@{marked\_img}}
+\index{marked\_img@{marked\_img}!app@{app}}
+\doxysubsubsection{\texorpdfstring{marked\_img}{marked\_img}}
+{\footnotesize\ttfamily \label{namespaceapp_acfb78cec59774f2a9979bf32058c928e} 
+app.\+marked\+\_\+img = img.\+copy()}
+
+\Hypertarget{namespaceapp_ad8fb8612cc8ff6b297bfabd4f8cecadc}\index{app@{app}!orb@{orb}}
+\index{orb@{orb}!app@{app}}
+\doxysubsubsection{\texorpdfstring{orb}{orb}}
+{\footnotesize\ttfamily \label{namespaceapp_ad8fb8612cc8ff6b297bfabd4f8cecadc} 
+app.\+orb = cv2.\+ORB\+\_\+create()}
+
+\Hypertarget{namespaceapp_adcd4161b2b197e0cf698a7ae8ca84488}\index{app@{app}!page\_icon@{page\_icon}}
+\index{page\_icon@{page\_icon}!app@{app}}
+\doxysubsubsection{\texorpdfstring{page\_icon}{page\_icon}}
+{\footnotesize\ttfamily \label{namespaceapp_adcd4161b2b197e0cf698a7ae8ca84488} 
+app.\+page\+\_\+icon}
+
+\Hypertarget{namespaceapp_a2c5b508829b4995a003ebbea7efab85e}\index{app@{app}!page\_title@{page\_title}}
+\index{page\_title@{page\_title}!app@{app}}
+\doxysubsubsection{\texorpdfstring{page\_title}{page\_title}}
+{\footnotesize\ttfamily \label{namespaceapp_a2c5b508829b4995a003ebbea7efab85e} 
+app.\+page\+\_\+title}
+
+\Hypertarget{namespaceapp_ab5ca4aa5b486a3aed2248b9096194122}\index{app@{app}!sift@{sift}}
+\index{sift@{sift}!app@{app}}
+\doxysubsubsection{\texorpdfstring{sift}{sift}}
+{\footnotesize\ttfamily \label{namespaceapp_ab5ca4aa5b486a3aed2248b9096194122} 
+app.\+sift = cv2.\+SIFT\+\_\+create()}
+
+\Hypertarget{namespaceapp_a53b9663b10d0373bb7acbd49ad449547}\index{app@{app}!surf@{surf}}
+\index{surf@{surf}!app@{app}}
+\doxysubsubsection{\texorpdfstring{surf}{surf}}
+{\footnotesize\ttfamily \label{namespaceapp_a53b9663b10d0373bb7acbd49ad449547} 
+app.\+surf = cv2.\+xfeatures2d.\+SURF\+\_\+create(400)}
+
+\Hypertarget{namespaceapp_af1bfcec749f03ddb04e50e8dce9f56a1}\index{app@{app}!suspicious\_count@{suspicious\_count}}
+\index{suspicious\_count@{suspicious\_count}!app@{app}}
+\doxysubsubsection{\texorpdfstring{suspicious\_count}{suspicious\_count}}
+{\footnotesize\ttfamily \label{namespaceapp_af1bfcec749f03ddb04e50e8dce9f56a1} 
+int app.\+suspicious\+\_\+count = 0}
+
+\Hypertarget{namespaceapp_a837829dda62f12cef2d21f66ecde5f26}\index{app@{app}!tab1@{tab1}}
+\index{tab1@{tab1}!app@{app}}
+\doxysubsubsection{\texorpdfstring{tab1}{tab1}}
+{\footnotesize\ttfamily \label{namespaceapp_a837829dda62f12cef2d21f66ecde5f26} 
+app.\+tab1}
+
+\Hypertarget{namespaceapp_ab72f29dede04fb9ab9d5d08f5f8faa49}\index{app@{app}!tab2@{tab2}}
+\index{tab2@{tab2}!app@{app}}
+\doxysubsubsection{\texorpdfstring{tab2}{tab2}}
+{\footnotesize\ttfamily \label{namespaceapp_ab72f29dede04fb9ab9d5d08f5f8faa49} 
+app.\+tab2}
+
+\Hypertarget{namespaceapp_a6cbefd4429bfc0cf4ef3aff2de075a0a}\index{app@{app}!tab3@{tab3}}
+\index{tab3@{tab3}!app@{app}}
+\doxysubsubsection{\texorpdfstring{tab3}{tab3}}
+{\footnotesize\ttfamily \label{namespaceapp_a6cbefd4429bfc0cf4ef3aff2de075a0a} 
+app.\+tab3}
+
+\Hypertarget{namespaceapp_a59df6d7bb42cde0cf6d1c1697142359b}\index{app@{app}!tab4@{tab4}}
+\index{tab4@{tab4}!app@{app}}
+\doxysubsubsection{\texorpdfstring{tab4}{tab4}}
+{\footnotesize\ttfamily \label{namespaceapp_a59df6d7bb42cde0cf6d1c1697142359b} 
+app.\+tab4}
+
+\Hypertarget{namespaceapp_a5e17b56d653d19abb6575dff7dbd9a29}\index{app@{app}!unsafe\_allow\_html@{unsafe\_allow\_html}}
+\index{unsafe\_allow\_html@{unsafe\_allow\_html}!app@{app}}
+\doxysubsubsection{\texorpdfstring{unsafe\_allow\_html}{unsafe\_allow\_html}}
+{\footnotesize\ttfamily \label{namespaceapp_a5e17b56d653d19abb6575dff7dbd9a29} 
+app.\+unsafe\+\_\+allow\+\_\+html}
+
+\Hypertarget{namespaceapp_a961e76fb8ef025010a52b2203a6a9ce7}\index{app@{app}!uploaded\_file@{uploaded\_file}}
+\index{uploaded\_file@{uploaded\_file}!app@{app}}
+\doxysubsubsection{\texorpdfstring{uploaded\_file}{uploaded\_file}}
+{\footnotesize\ttfamily \label{namespaceapp_a961e76fb8ef025010a52b2203a6a9ce7} 
+app.\+uploaded\+\_\+file}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ st.file\_uploader(}
+\DoxyCodeLine{00002\ \ \ \ \ \textcolor{stringliteral}{"{}Analiz\ edilecek\ görüntüyü\ yükleyin"{}},}
+\DoxyCodeLine{00003\ \ \ \ \ type=[\textcolor{stringliteral}{"{}jpg"{}},\ \textcolor{stringliteral}{"{}jpeg"{}},\ \textcolor{stringliteral}{"{}png"{}},\ \textcolor{stringliteral}{"{}tif"{}},\ \textcolor{stringliteral}{"{}tiff"{}}]}
+\DoxyCodeLine{00004\ )}
+
+\end{DoxyCode}
+\Hypertarget{namespaceapp_a5280e38eb3edec5bf25c7c3d6ec9a1db}\index{app@{app}!w@{w}}
+\index{w@{w}!app@{app}}
+\doxysubsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily \label{namespaceapp_a5280e38eb3edec5bf25c7c3d6ec9a1db} 
+app.\+w}
+
+\Hypertarget{namespaceapp_a36cff91f27ccaacfba406bf275d66b76}\index{app@{app}!width@{width}}
+\index{width@{width}!app@{app}}
+\doxysubsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily \label{namespaceapp_a36cff91f27ccaacfba406bf275d66b76} 
+app.\+width}
+
+\Hypertarget{namespaceapp_a317ac56fdcfc4eb3cb88af0137671fa8}\index{app@{app}!x@{x}}
+\index{x@{x}!app@{app}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily \label{namespaceapp_a317ac56fdcfc4eb3cb88af0137671fa8} 
+app.\+x}
+
+\Hypertarget{namespaceapp_a32fcb344166e29e2bc1fa7e3346fa970}\index{app@{app}!y@{y}}
+\index{y@{y}!app@{app}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily \label{namespaceapp_a32fcb344166e29e2bc1fa7e3346fa970} 
+app.\+y}
+

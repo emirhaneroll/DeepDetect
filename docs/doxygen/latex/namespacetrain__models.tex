@@ -1,0 +1,265 @@
+\doxysection{train\+\_\+models Namespace Reference}
+\hypertarget{namespacetrain__models}{}\label{namespacetrain__models}\index{train\_models@{train\_models}}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{namespacetrain__models_a1ee35ac2662e45dfcea9ecc636a27c0e}{IMG\+\_\+\+SIZE}} = 224
+\item 
+int \doxymbox{\hyperlink{namespacetrain__models_a9027f791e372a837e8e1ba91a5dfd35b}{BATCH\+\_\+\+SIZE}} = 32
+\item 
+int \doxymbox{\hyperlink{namespacetrain__models_a606575188fc73694e9ded97e4bc1b0eb}{EPOCHS\+\_\+\+HEAD}} = 15
+\item 
+int \doxymbox{\hyperlink{namespacetrain__models_a3f6151ca33d5e227b64b4dfd2f90a625}{EPOCHS\+\_\+\+FINE}} = 15
+\item 
+str \doxymbox{\hyperlink{namespacetrain__models_ac1c8b5a1f72a4ff061a2c8d371c3e343}{DATASET\+\_\+\+DIR}} = "{}dataset"{}
+\item 
+str \doxymbox{\hyperlink{namespacetrain__models_aed77b2a65e6c445f7af75721c9a6d1a8}{MODEL\+\_\+\+DIR}} = "{}models"{}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_aedc77d8d7c89da9cd2e1108acf1f1d88}{exist\+\_\+ok}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a276e9242962eb2e1b91198b409ef1550}{train\+\_\+datagen}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_ad24efb73b20913ebe42423d2e93eee5e}{train\+\_\+generator}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_ad107d88a89459fd2d5e9fa16f57b8f35}{val\+\_\+generator}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a154cb671e040c44358242b7e48d0aef4}{classes}} = train\+\_\+generator.\+classes
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_adce25a94a9b897bf79d7c8981498e298}{class\+\_\+weights\+\_\+array}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a51c4b2b36bd3afa264314ecb831f120a}{class\+\_\+weights}} = dict(enumerate(\doxymbox{\hyperlink{namespacetrain__models_adce25a94a9b897bf79d7c8981498e298}{class\+\_\+weights\+\_\+array}}))
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_afea7f8723a2ab3ec37159a3b5b058b67}{fake\+\_\+index}} = train\+\_\+generator.\+class\+\_\+indices\+["{}fake"{}]\+
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a0ddaf7441759708eca66de096968bcd7}{base\+\_\+model}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_ad1b1565d49bd4d28cc77c3877cefdc54}{trainable}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a32ed18cee3b6302f52bd0ca8139cfa3c}{x}} = base\+\_\+model.\+output
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a07cbf6060fb99b75f189b1d8a86fae29}{output}} = Dense(2, activation="{}softmax"{})(\doxymbox{\hyperlink{namespacetrain__models_a32ed18cee3b6302f52bd0ca8139cfa3c}{x}})
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a060d8c5d5a1731c22f4ec9a413cc79a5}{model}} = Model(inputs=base\+\_\+model.\+input, outputs=\doxymbox{\hyperlink{namespacetrain__models_a07cbf6060fb99b75f189b1d8a86fae29}{output}})
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a71acfd09854a9b950e5fda727fc438dd}{optimizer}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a35b7c53c5a990f8cd6c7e9433518e3cf}{loss}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_af832d28730e88188df14c4bd62a44a2b}{metrics}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_aae4dad3152a758fa262f06e2954a15ca}{validation\+\_\+data}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a4e60e50c5eea29e89c6eebb77afa3253}{epochs}}
+\item 
+\doxymbox{\hyperlink{namespacetrain__models_a073f71a022c9cc553515ea94db09dfff}{class\+\_\+weight}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-var-members}
+\Hypertarget{namespacetrain__models_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacetrain__models_a0ddaf7441759708eca66de096968bcd7}\index{train\_models@{train\_models}!base\_model@{base\_model}}
+\index{base\_model@{base\_model}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{base\_model}{base\_model}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a0ddaf7441759708eca66de096968bcd7} 
+train\+\_\+models.\+base\+\_\+model}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ MobileNetV2(}
+\DoxyCodeLine{00002\ \ \ \ \ weights=\textcolor{stringliteral}{"{}imagenet"{}},}
+\DoxyCodeLine{00003\ \ \ \ \ include\_top=\textcolor{keyword}{False},}
+\DoxyCodeLine{00004\ \ \ \ \ input\_shape=(IMG\_SIZE,\ IMG\_SIZE,\ 3)}
+\DoxyCodeLine{00005\ )}
+
+\end{DoxyCode}
+\Hypertarget{namespacetrain__models_a9027f791e372a837e8e1ba91a5dfd35b}\index{train\_models@{train\_models}!BATCH\_SIZE@{BATCH\_SIZE}}
+\index{BATCH\_SIZE@{BATCH\_SIZE}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{BATCH\_SIZE}{BATCH\_SIZE}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a9027f791e372a837e8e1ba91a5dfd35b} 
+int train\+\_\+models.\+BATCH\+\_\+\+SIZE = 32}
+
+\Hypertarget{namespacetrain__models_a073f71a022c9cc553515ea94db09dfff}\index{train\_models@{train\_models}!class\_weight@{class\_weight}}
+\index{class\_weight@{class\_weight}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{class\_weight}{class\_weight}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a073f71a022c9cc553515ea94db09dfff} 
+train\+\_\+models.\+class\+\_\+weight}
+
+\Hypertarget{namespacetrain__models_a51c4b2b36bd3afa264314ecb831f120a}\index{train\_models@{train\_models}!class\_weights@{class\_weights}}
+\index{class\_weights@{class\_weights}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{class\_weights}{class\_weights}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a51c4b2b36bd3afa264314ecb831f120a} 
+train\+\_\+models.\+class\+\_\+weights = dict(enumerate(\doxymbox{\hyperlink{namespacetrain__models_adce25a94a9b897bf79d7c8981498e298}{class\+\_\+weights\+\_\+array}}))}
+
+\Hypertarget{namespacetrain__models_adce25a94a9b897bf79d7c8981498e298}\index{train\_models@{train\_models}!class\_weights\_array@{class\_weights\_array}}
+\index{class\_weights\_array@{class\_weights\_array}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{class\_weights\_array}{class\_weights\_array}}
+{\footnotesize\ttfamily \label{namespacetrain__models_adce25a94a9b897bf79d7c8981498e298} 
+train\+\_\+models.\+class\+\_\+weights\+\_\+array}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ compute\_class\_weight(}
+\DoxyCodeLine{00002\ \ \ \ \ class\_weight=\textcolor{stringliteral}{"{}balanced"{}},}
+\DoxyCodeLine{00003\ \ \ \ \ classes=np.unique(classes),}
+\DoxyCodeLine{00004\ \ \ \ \ y=classes}
+\DoxyCodeLine{00005\ )}
+
+\end{DoxyCode}
+\Hypertarget{namespacetrain__models_a154cb671e040c44358242b7e48d0aef4}\index{train\_models@{train\_models}!classes@{classes}}
+\index{classes@{classes}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{classes}{classes}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a154cb671e040c44358242b7e48d0aef4} 
+train\+\_\+models.\+classes = train\+\_\+generator.\+classes}
+
+\Hypertarget{namespacetrain__models_ac1c8b5a1f72a4ff061a2c8d371c3e343}\index{train\_models@{train\_models}!DATASET\_DIR@{DATASET\_DIR}}
+\index{DATASET\_DIR@{DATASET\_DIR}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{DATASET\_DIR}{DATASET\_DIR}}
+{\footnotesize\ttfamily \label{namespacetrain__models_ac1c8b5a1f72a4ff061a2c8d371c3e343} 
+str train\+\_\+models.\+DATASET\+\_\+\+DIR = "{}dataset"{}}
+
+\Hypertarget{namespacetrain__models_a4e60e50c5eea29e89c6eebb77afa3253}\index{train\_models@{train\_models}!epochs@{epochs}}
+\index{epochs@{epochs}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{epochs}{epochs}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a4e60e50c5eea29e89c6eebb77afa3253} 
+train\+\_\+models.\+epochs}
+
+\Hypertarget{namespacetrain__models_a3f6151ca33d5e227b64b4dfd2f90a625}\index{train\_models@{train\_models}!EPOCHS\_FINE@{EPOCHS\_FINE}}
+\index{EPOCHS\_FINE@{EPOCHS\_FINE}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{EPOCHS\_FINE}{EPOCHS\_FINE}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a3f6151ca33d5e227b64b4dfd2f90a625} 
+int train\+\_\+models.\+EPOCHS\+\_\+\+FINE = 15}
+
+\Hypertarget{namespacetrain__models_a606575188fc73694e9ded97e4bc1b0eb}\index{train\_models@{train\_models}!EPOCHS\_HEAD@{EPOCHS\_HEAD}}
+\index{EPOCHS\_HEAD@{EPOCHS\_HEAD}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{EPOCHS\_HEAD}{EPOCHS\_HEAD}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a606575188fc73694e9ded97e4bc1b0eb} 
+int train\+\_\+models.\+EPOCHS\+\_\+\+HEAD = 15}
+
+\Hypertarget{namespacetrain__models_aedc77d8d7c89da9cd2e1108acf1f1d88}\index{train\_models@{train\_models}!exist\_ok@{exist\_ok}}
+\index{exist\_ok@{exist\_ok}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{exist\_ok}{exist\_ok}}
+{\footnotesize\ttfamily \label{namespacetrain__models_aedc77d8d7c89da9cd2e1108acf1f1d88} 
+train\+\_\+models.\+exist\+\_\+ok}
+
+\Hypertarget{namespacetrain__models_afea7f8723a2ab3ec37159a3b5b058b67}\index{train\_models@{train\_models}!fake\_index@{fake\_index}}
+\index{fake\_index@{fake\_index}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{fake\_index}{fake\_index}}
+{\footnotesize\ttfamily \label{namespacetrain__models_afea7f8723a2ab3ec37159a3b5b058b67} 
+train\+\_\+models.\+fake\+\_\+index = train\+\_\+generator.\+class\+\_\+indices\+["{}fake"{}]\+}
+
+\Hypertarget{namespacetrain__models_a1ee35ac2662e45dfcea9ecc636a27c0e}\index{train\_models@{train\_models}!IMG\_SIZE@{IMG\_SIZE}}
+\index{IMG\_SIZE@{IMG\_SIZE}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{IMG\_SIZE}{IMG\_SIZE}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a1ee35ac2662e45dfcea9ecc636a27c0e} 
+int train\+\_\+models.\+IMG\+\_\+\+SIZE = 224}
+
+\Hypertarget{namespacetrain__models_a35b7c53c5a990f8cd6c7e9433518e3cf}\index{train\_models@{train\_models}!loss@{loss}}
+\index{loss@{loss}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{loss}{loss}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a35b7c53c5a990f8cd6c7e9433518e3cf} 
+train\+\_\+models.\+loss}
+
+\Hypertarget{namespacetrain__models_af832d28730e88188df14c4bd62a44a2b}\index{train\_models@{train\_models}!metrics@{metrics}}
+\index{metrics@{metrics}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{metrics}{metrics}}
+{\footnotesize\ttfamily \label{namespacetrain__models_af832d28730e88188df14c4bd62a44a2b} 
+train\+\_\+models.\+metrics}
+
+\Hypertarget{namespacetrain__models_a060d8c5d5a1731c22f4ec9a413cc79a5}\index{train\_models@{train\_models}!model@{model}}
+\index{model@{model}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{model}{model}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a060d8c5d5a1731c22f4ec9a413cc79a5} 
+train\+\_\+models.\+model = Model(inputs=base\+\_\+model.\+input, outputs=\doxymbox{\hyperlink{namespacetrain__models_a07cbf6060fb99b75f189b1d8a86fae29}{output}})}
+
+\Hypertarget{namespacetrain__models_aed77b2a65e6c445f7af75721c9a6d1a8}\index{train\_models@{train\_models}!MODEL\_DIR@{MODEL\_DIR}}
+\index{MODEL\_DIR@{MODEL\_DIR}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{MODEL\_DIR}{MODEL\_DIR}}
+{\footnotesize\ttfamily \label{namespacetrain__models_aed77b2a65e6c445f7af75721c9a6d1a8} 
+train\+\_\+models.\+MODEL\+\_\+\+DIR = "{}models"{}}
+
+\Hypertarget{namespacetrain__models_a71acfd09854a9b950e5fda727fc438dd}\index{train\_models@{train\_models}!optimizer@{optimizer}}
+\index{optimizer@{optimizer}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{optimizer}{optimizer}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a71acfd09854a9b950e5fda727fc438dd} 
+train\+\_\+models.\+optimizer}
+
+\Hypertarget{namespacetrain__models_a07cbf6060fb99b75f189b1d8a86fae29}\index{train\_models@{train\_models}!output@{output}}
+\index{output@{output}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a07cbf6060fb99b75f189b1d8a86fae29} 
+train\+\_\+models.\+output = Dense(2, activation="{}softmax"{})(\doxymbox{\hyperlink{namespacetrain__models_a32ed18cee3b6302f52bd0ca8139cfa3c}{x}})}
+
+\Hypertarget{namespacetrain__models_a276e9242962eb2e1b91198b409ef1550}\index{train\_models@{train\_models}!train\_datagen@{train\_datagen}}
+\index{train\_datagen@{train\_datagen}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{train\_datagen}{train\_datagen}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a276e9242962eb2e1b91198b409ef1550} 
+train\+\_\+models.\+train\+\_\+datagen}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ ImageDataGenerator(}
+\DoxyCodeLine{00002\ \ \ \ \ preprocessing\_function=preprocess\_input,}
+\DoxyCodeLine{00003\ \ \ \ \ validation\_split=0.2,}
+\DoxyCodeLine{00004\ \ \ \ \ rotation\_range=10,}
+\DoxyCodeLine{00005\ \ \ \ \ zoom\_range=0.1,}
+\DoxyCodeLine{00006\ \ \ \ \ horizontal\_flip=\textcolor{keyword}{True},}
+\DoxyCodeLine{00007\ \ \ \ \ brightness\_range=[0.8,\ 1.2],}
+\DoxyCodeLine{00008\ \ \ \ \ fill\_mode=\textcolor{stringliteral}{"{}nearest"{}}}
+\DoxyCodeLine{00009\ )}
+
+\end{DoxyCode}
+\Hypertarget{namespacetrain__models_ad24efb73b20913ebe42423d2e93eee5e}\index{train\_models@{train\_models}!train\_generator@{train\_generator}}
+\index{train\_generator@{train\_generator}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{train\_generator}{train\_generator}}
+{\footnotesize\ttfamily \label{namespacetrain__models_ad24efb73b20913ebe42423d2e93eee5e} 
+train\+\_\+models.\+train\+\_\+generator}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ train\_datagen.flow\_from\_directory(}
+\DoxyCodeLine{00002\ \ \ \ \ DATASET\_DIR,}
+\DoxyCodeLine{00003\ \ \ \ \ target\_size=(IMG\_SIZE,\ IMG\_SIZE),}
+\DoxyCodeLine{00004\ \ \ \ \ batch\_size=BATCH\_SIZE,}
+\DoxyCodeLine{00005\ \ \ \ \ class\_mode=\textcolor{stringliteral}{"{}categorical"{}},}
+\DoxyCodeLine{00006\ \ \ \ \ subset=\textcolor{stringliteral}{"{}training"{}},}
+\DoxyCodeLine{00007\ \ \ \ \ shuffle=\textcolor{keyword}{True}}
+\DoxyCodeLine{00008\ )}
+
+\end{DoxyCode}
+\Hypertarget{namespacetrain__models_ad1b1565d49bd4d28cc77c3877cefdc54}\index{train\_models@{train\_models}!trainable@{trainable}}
+\index{trainable@{trainable}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{trainable}{trainable}}
+{\footnotesize\ttfamily \label{namespacetrain__models_ad1b1565d49bd4d28cc77c3877cefdc54} 
+train\+\_\+models.\+trainable}
+
+\Hypertarget{namespacetrain__models_ad107d88a89459fd2d5e9fa16f57b8f35}\index{train\_models@{train\_models}!val\_generator@{val\_generator}}
+\index{val\_generator@{val\_generator}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{val\_generator}{val\_generator}}
+{\footnotesize\ttfamily \label{namespacetrain__models_ad107d88a89459fd2d5e9fa16f57b8f35} 
+train\+\_\+models.\+val\+\_\+generator}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ train\_datagen.flow\_from\_directory(}
+\DoxyCodeLine{00002\ \ \ \ \ DATASET\_DIR,}
+\DoxyCodeLine{00003\ \ \ \ \ target\_size=(IMG\_SIZE,\ IMG\_SIZE),}
+\DoxyCodeLine{00004\ \ \ \ \ batch\_size=BATCH\_SIZE,}
+\DoxyCodeLine{00005\ \ \ \ \ class\_mode=\textcolor{stringliteral}{"{}categorical"{}},}
+\DoxyCodeLine{00006\ \ \ \ \ subset=\textcolor{stringliteral}{"{}validation"{}},}
+\DoxyCodeLine{00007\ \ \ \ \ shuffle=\textcolor{keyword}{False}}
+\DoxyCodeLine{00008\ )}
+
+\end{DoxyCode}
+\Hypertarget{namespacetrain__models_aae4dad3152a758fa262f06e2954a15ca}\index{train\_models@{train\_models}!validation\_data@{validation\_data}}
+\index{validation\_data@{validation\_data}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{validation\_data}{validation\_data}}
+{\footnotesize\ttfamily \label{namespacetrain__models_aae4dad3152a758fa262f06e2954a15ca} 
+train\+\_\+models.\+validation\+\_\+data}
+
+\Hypertarget{namespacetrain__models_a32ed18cee3b6302f52bd0ca8139cfa3c}\index{train\_models@{train\_models}!x@{x}}
+\index{x@{x}!train\_models@{train\_models}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily \label{namespacetrain__models_a32ed18cee3b6302f52bd0ca8139cfa3c} 
+train\+\_\+models.\+x = base\+\_\+model.\+output}
+
